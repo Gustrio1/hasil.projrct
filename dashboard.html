@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-utilities.rtl.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <title>HALAMAN LOGIN</title>
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+
+        <!-- ICON HALAMAN -->
+        <div class="bg-white" id="sidebar-wrapper">
+
+            <div class="sidebar-heading text-center py-4 primary-text fs-4 border-bottom fw-bold text-uppercase">
+                <i class="fa fa-user"></i> LOGO
+            </div>
+
+            <div class="list-group list-group-flush my-2 border-none">
+                <a href="" class="list-group-item list-group-item-action  bg-transparent second-text active">
+                    <i class="fa-solid fa-house me-2"></i> Dashboard
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action  bg-transparent second-text ">
+                    <i class="fa-solid fa-right-from-bracket me-2"></i> Logout
+                </a>
+
+            </div>
+        </div>
+
+
+        <!-- ISI HALAMAN -->
+        <div id="page-content-wrapper">
+
+            <!-- navigasi -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary py-2 px-2">
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-list fs-3 me-3" id="menu-toggle"></i>
+                </div>
+                <div class="Navbar navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-0 me-auto mb-0 p-2" style="width: auto;">
+                        <li class="nav-item ">
+                            <a class="nav-link">
+                                <i class="fas fa-user"></i> User 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- CARD JUMBLAH DATA -->
+            <div class="container-fluid px-4">
+                <div class="mt-2 mb-2 p-2">
+                    <h3 class="fs-3 text-success">Dashboard</h3>
+                </div>
+                <div class="row g-2 my-3">
+                    <div class="col-sm-4">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounder">
+                            <div>
+                                <h3 class="fs-2">0</h3>
+                                <p class="fs-5">Jumblah CALEG</p>
+                            </div>
+                            <i class="fa-solid fa-user-plus fs-1  primary-text  rounder-full secondary-bg b-3"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounder">
+                            <div>
+                                <h3 class="fs-2">0</h3>
+                                <p class="fs-5">Jumblah SAKSI</p>
+                            </div>
+                            <i class="fa-solid fa-user-plus fs-1  primary-text  rounder-full secondary-bg b-3"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounder">
+                            <div>
+                                <h3 class="fs-2">0</h3>
+                                <p class="fs-5">Jumblah TPS</p>
+                            </div>
+                            <i class="fa-solid fa-user-plus fs-1  primary-text  rounder-full secondary-bg b-3"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TABEL DATA CALEG -->
+            <div class="container-fluid">
+                <div class="row g-4 my-2 d-flex justify-content-center align-items-center">
+                    <div class="col-sm-11">
+                        <div class="p-3 bg-light rounded-3">
+                            <div class="mt-1 mb-4">
+                                <h3 class="fs-5">DATA CALEG</h3>
+                            </div>
+
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">No</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Handle</th>
+                                        <th scope="col">Handle</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TABLE DATA SAKSI -->
+                <div class="row g-4 my-2 d-flex justify-content-center align-items-center">
+                    <div class="col-sm-11">
+                        <div class="p-3 bg-light rounded-3">
+                            <div class="mt-1 mb-4">
+                                <h3 class="fs-5">DATA SAKSI</h3>
+                            </div>
+
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">No</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Handle</th>
+                                        <th scope="col">Handle</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TABEL DATA TPS -->
+                <div class="row g-4 my-2 d-flex justify-content-center align-items-center">
+                    <div class="col-sm-11">
+                        <div class="p-3 bg-light rounded-3">
+                            <div class="mt-1 mb-4">
+                                <h3 class="fs-5">DATA TPS</h3>
+                            </div>
+
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">No</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Handle</th>
+                                        <th scope="col">Handle</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOOTER -->
+            <footer class="container-fluid py-1 px-0 mt-5">
+                <div class="text-center text-white p-3">
+                    2024 Copyright
+                  </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
